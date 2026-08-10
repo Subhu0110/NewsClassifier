@@ -105,15 +105,15 @@ The project includes an interactive Streamlit web application where users can pa
 
 ### Home Page
 
-![News Classifier](screenshots/home.png)
+![News Classifier](screenshots/Home.png)
 
 ### Prediction
 
-![Prediction Result](screenshots/prediction.png)
+![Prediction Result](screenshots/Prediction.png)
 
 ### Model Comparison
 
-![Model Comparison](screenshots/model_comparison.png)
+![Model Comparison](screenshots/Model_Comparison.png)
 
 ### Prediction Flow
 
