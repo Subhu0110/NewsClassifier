@@ -128,3 +128,33 @@ Linear SVM
      ↓
 Predicted Category
 
+```
+
+## 📁 Project Structure
+
+```text
+NewsClassifier/
+│
+├── app.py
+├── preprocessing.py
+├── label_mapping.pkl
+├── svm_model.pkl
+├── tf_idf_vectorizer.pkl
+├── NewsClassifier.ipynb
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── screenshots/
+    ├── home.png
+    ├── prediction.png
+    └── model_comparison.png
+```
+
+## 👨‍💻 Author
+
+**Subhansh Yadav**
+
+CSE (AI & ML) — IIIT Nagpur
+
+[GitHub](https://github.com/Subhu0110)
+
