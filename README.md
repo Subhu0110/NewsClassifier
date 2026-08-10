@@ -79,11 +79,18 @@ Both standard and parameterized TF-IDF configurations were evaluated with Naive 
 | Logistic Regression | Parameterized | 91.54% | 91.53% | 91.54% | 91.52% |
 | **Linear SVM** | **Parameterized** | **92.19%** | **92.18%** | **92.19%** | **92.17%** |
 
-### Final Model
+### 🏆 Final Model
 
-The **Parameterized TF-IDF + Linear SVM** configuration was selected as the final model based on its overall classification performance.
+The **Parameterized TF-IDF + Linear SVM** configuration achieved the best overall performance among the evaluated models.
 
-The trained TF-IDF vectorizer and SVM model were serialized using Joblib and integrated into the Streamlit application for real-time predictions.
+| Metric | Score |
+|---|---:|
+| Accuracy | **92.19%** |
+| Precision | **92.18%** |
+| Recall | **92.19%** |
+| F1 Score | **92.17%** |
+
+This configuration was selected as the final model and integrated into the Streamlit application for real-time news classification.
 
 ## 🌐 Streamlit Application
 
@@ -91,7 +98,22 @@ The project includes an interactive Streamlit web application where users can pa
 
 ## 🌐 Live Demo
 
-🚀 **[Try the News Classifier](YOUR_STREAMLIT_APP_URL)**
+🚀 **[Try the News Classifier](https://newsclassifier-subhu0110.streamlit.app/)**
+
+
+## 🖥️ Application Preview
+
+### Home Page
+
+![News Classifier](screenshots/home.png)
+
+### Prediction
+
+![Prediction Result](screenshots/prediction.png)
+
+### Model Comparison
+
+![Model Comparison](screenshots/model_comparison.png)
 
 ### Prediction Flow
 
@@ -105,3 +127,4 @@ TF-IDF Vectorization
 Linear SVM
      ↓
 Predicted Category
+
